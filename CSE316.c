@@ -121,7 +121,7 @@ int main() {
 
     // Input process details from the user
     for (int i = 0; i < num_processes; i++) {
-        printf("Enter the priority of the process (from 1 to 9) ");
+        printf("Enter the priority of the process (from 1 to 9) Higher NUmebr = Higher Priority: ");
         scanf("%d", &all_procs[i].priority);
         if(all_procs[i].priority<=0||all_procs[i].priority>9){
             printf("\nInvalid Priority selected. Scheduler will be exiting now.\n");
